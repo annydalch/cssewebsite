@@ -1,0 +1,19 @@
+.sideways-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+.sideways-list li {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.sideways-list li:hover {
+	background-color: white;
+}
